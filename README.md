@@ -144,14 +144,6 @@ python 6_11_comprehensive_analysis.py
 python generate_plots.py
 ```
 
-### Dependencies
-Main packages:
-- tensorflow >= 2.15.0
-- keras >= 3.0.0
-- scikit-learn >= 1.3.0
-- plotly >= 5.18.0
-- nltk >= 3.8.0
-- numpy, pandas, matplotlib
 
 ## Visualizations
 
