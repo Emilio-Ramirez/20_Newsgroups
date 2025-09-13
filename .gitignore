@@ -42,6 +42,3 @@ Thumbs.db
 
 # Results (generated files)
 results/*.json
-plots/*.png
-plots/*.jpg
-plots/*.svg
