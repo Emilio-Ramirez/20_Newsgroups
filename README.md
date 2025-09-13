@@ -155,6 +155,26 @@ Main packages:
 
 ## Visualizations
 
+### Category Distribution
+![Category Distribution](plots/category_distribution.png)
+
+Distribution of documents across the 20 newsgroup categories showing dataset balance.
+
+### Text Length Analysis
+![Text Length Distribution](plots/text_length_distribution.png)
+
+Distribution of text lengths across categories with statistics and outlier analysis.
+
+### Word Frequency Analysis
+![Word Frequency](plots/word_frequency.png)
+
+Most common words across all categories after preprocessing and stopword removal.
+
+### Class Balance
+![Class Balance](plots/class_balance.png)
+
+Class balance visualization showing document counts per category.
+
 ### Architecture Comparison
 ![Architecture Comparison](plots/architecture_comparison.png)
 
@@ -165,10 +185,20 @@ Different neural network architectures tested with parameters, training time, an
 
 Training and validation loss/accuracy over epochs showing convergence behavior.
 
-### Confusion Matrix
-![Confusion Matrix](plots/confusion_matrix.png)
+### Confusion Matrix (Normalized)
+![Confusion Matrix Normalized](plots/confusion_matrix_normalized.png)
 
-Normalized confusion matrix for sample categories showing classification accuracy.
+Normalized confusion matrix showing classification accuracy between categories.
+
+### Confusion Matrix (Raw Counts)
+![Confusion Matrix Raw](plots/confusion_matrix_raw.png)
+
+Raw confusion matrix with actual prediction counts between categories.
+
+### Per-Class Metrics
+![Per-Class Metrics](plots/per_class_metrics.png)
+
+Precision, recall, and F1-score breakdown by category.
 
 ### Cross-Validation Results
 ![Cross Validation](plots/cross_validation.png)
@@ -184,11 +214,6 @@ Multi-class ROC curves with AUC scores for different categories.
 ![Learning Curves](plots/learning_curves.png)
 
 Training vs validation performance as function of training set size.
-
-### Per-Class Metrics
-![Per-Class Metrics](plots/per_class_metrics.png)
-
-Precision, recall, and F1-score breakdown by category.
 
 ### Final Evaluation Dashboard
 ![Evaluation Dashboard](plots/evaluation_dashboard.png)
